@@ -1,0 +1,7 @@
+# Ignorar pastas de dados
+data/
+/4-Neural_Networks/data/
+
+# Ignorar tipos de arquivo
+*.pdf
+*.gz

@@ -1,0 +1,17 @@
+name: ai-ml-2
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - scikit-learn
+  - pytorch          # pacote PyTorch
+  - torchvision      # pacote torchvision
+  - cpuonly          # força build somente CPU (pytorch channel)
+  - pip
+
+  - pip:
+    - tensorflow==2.19.0
+  
