@@ -1,0 +1,15 @@
+name: ai-tf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - cudatoolkit=11.2
+  - cudnn=8.1
+  - pip
+  - pip:
+      - tensorflow==2.10
+  - matplotlib
+  - pandas
+  - scikit-learn
